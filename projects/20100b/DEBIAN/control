@@ -1,0 +1,9 @@
+Package: com.vballet.20100b
+Name: 20100b
+Depends: winterboard
+Version: 1.0
+Architecture: iphoneos-arm
+Description: A beautiful Winderboard theme that changes nothing
+Maintainer: 20100b <vincent.ballet@epfl.ch>
+Author: 20100b <vincent.ballet@epfl.ch>
+Section: Themes (SpringBoard)
