@@ -1,2 +1,1 @@
-# vballet.github.io
-Cydia Repository
+# vincentballet.me
