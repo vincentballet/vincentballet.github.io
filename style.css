@@ -1,5 +1,5 @@
 body {
-    background-color: #19CC9F;
+    background-color: #262626;
 }
 @font-face {
     font-family: 'myFont';
@@ -8,7 +8,7 @@ body {
 
 #container {
 	text-align: center;
-	color: #129272;
+	color: #729EFF;
 /*    border:1px solid white;
 */	width: 70%;
   	height: 50%;
@@ -23,5 +23,5 @@ body {
 }
 
 a {
-    color: #367F6D;
+    color: #587BC7;
 }
