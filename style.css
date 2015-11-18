@@ -1,8 +1,9 @@
 body {
     background-color: #19CC9F;
 }
-@font-face {
-    font-family: 'inc';
+@fo
+nt-face {
+    font-family: 'inconsolata';
     src: url('./fonts/Inconsolata.otf');
 }
 
@@ -11,60 +12,32 @@ body {
     src: url('./fonts/open_sans_light.ttf');
 }
 
-@font-face {
-    font-family: 'light';
-    src: url('./fonts/light.otf');
-}
 
 
-#container {
+#main {
 	text-align: center;
 	color: #129272;
-/*    border:1px solid white;
-*/	width: 70%;
-  	height: 50%;
-  	overflow: auto;
-  	margin: auto;
-  	position: absolute;
-  	top: 0; left: 0; bottom: 0; right: 0;
-
-  	font-family: 'inc';
+  width: 70%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+	position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  font-family: 'open_sans_light';
 	font-size: 28px;
-	font-weight: bold;
 }
 
-a {
-    color: #367F6D;
+a:hover, a:visited, a:link, a:active
+{
+    color: #286553;
+    text-decoration: none;
 }
 
-#test {
-  text-align: center;
-  color: #129272;
-/*    border:1px solid white;
-*/  width: 70%;
-    height: 50%;
-    overflow: auto;
-    margin: auto;
-    position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
-
-    font-family: 'anglight';
+#code{
+  font-family: 'inconsolata';
   font-size: 28px;
-  font-weight: bold;
 }
 
-#test2 {
-  text-align: center;
-  color: #129272;
-/*    border:1px solid white;
-*/  width: 70%;
-    height: 50%;
-    overflow: auto;
-    margin: auto;
-    position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
 
-    font-family: 'light';
-  font-size: 28px;
-  font-weight: bold;
-}
+
+
