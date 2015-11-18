@@ -1,15 +1,14 @@
 body {
     background-color: #19CC9F;
 }
-@fo
-nt-face {
+@font-face {
     font-family: 'inconsolata';
     src: url('./fonts/Inconsolata.otf');
 }
 
 @font-face {
-    font-family: 'open_sans_light';
-    src: url('./fonts/open_sans_light.ttf');
+    font-family: 'bariol';
+    src: url('./fonts/Bariol.ttf');
 }
 
 
@@ -23,8 +22,8 @@ nt-face {
   margin: auto;
 	position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
-  font-family: 'open_sans_light';
-	font-size: 28px;
+  font-family: 'bariol';
+	font-size: 32px;
 }
 
 a:hover, a:visited, a:link, a:active
@@ -35,8 +34,14 @@ a:hover, a:visited, a:link, a:active
 
 #code{
   font-family: 'inconsolata';
-  font-size: 28px;
+  font-size: 32px;
 }
+
+
+
+/*background-color: #CE5352;
+color: #2E3E56;
+color: #1C2533;*/
 
 
 
