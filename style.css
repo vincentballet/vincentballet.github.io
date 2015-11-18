@@ -2,9 +2,20 @@ body {
     background-color: #19CC9F;
 }
 @font-face {
-    font-family: 'myFont';
+    font-family: 'inc';
     src: url('./fonts/Inconsolata.otf');
 }
+
+@font-face {
+    font-family: 'anglight';
+    src: url('./fonts/angularLight.otf');
+}
+
+@font-face {
+    font-family: 'light';
+    src: url('./fonts/light.otf');
+}
+
 
 #container {
 	text-align: center;
@@ -17,11 +28,43 @@ body {
   	position: absolute;
   	top: 0; left: 0; bottom: 0; right: 0;
 
-  	font-family: 'myFont';
+  	font-family: 'inc';
 	font-size: 28px;
 	font-weight: bold;
 }
 
 a {
     color: #367F6D;
+}
+
+#test {
+  text-align: center;
+  color: #129272;
+/*    border:1px solid white;
+*/  width: 70%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+
+    font-family: 'anglight';
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#test2 {
+  text-align: center;
+  color: #129272;
+/*    border:1px solid white;
+*/  width: 70%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+
+    font-family: 'light';
+  font-size: 28px;
+  font-weight: bold;
 }
