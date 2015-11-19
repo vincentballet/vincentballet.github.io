@@ -1,6 +1,7 @@
 body {
     background-color: #19CC9F;
 }
+
 @font-face {
     font-family: 'inconsolata';
     src: url('./fonts/Inconsolata.otf');
@@ -37,11 +38,20 @@ a:hover, a:visited, a:link, a:active
   font-size: 32px;
 }
 
-
-
+#background img{
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  width: 700px;
+  height: auto;
+  opacity: 0.1;
+}
 /*background-color: #CE5352;
 color: #2E3E56;
 color: #1C2533;*/
+
+
 
 
 
