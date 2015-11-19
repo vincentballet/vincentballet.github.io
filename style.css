@@ -12,9 +12,17 @@ body {
     src: url('./fonts/Bariol.ttf');
 }
 
+.Background img{
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  width: 700px;
+  height: auto;
+  opacity: 0.06;
+}
 
-
-#main {
+.Absolute-Centered {
 	text-align: center;
 	color: #129272;
   font-family: 'bariol';
@@ -28,26 +36,19 @@ body {
   top: 0; left: 0; bottom: 0; right: 0;
 }
 
+.Code{
+  font-family: 'inconsolata';
+  font-size: 32px;
+}
+
 a:hover, a:visited, a:link, a:active
 {
     color: #286553;
     text-decoration: none;
 }
 
-#code{
-  font-family: 'inconsolata';
-  font-size: 32px;
-}
 
-#background img{
-  overflow: auto;
-  margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
-  width: 700px;
-  height: auto;
-  opacity: 0.06;
-}
+
 /*background-color: #CE5352;
 color: #2E3E56;
 color: #1C2533;*/
