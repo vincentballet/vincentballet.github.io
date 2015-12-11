@@ -3,13 +3,13 @@ body {
 }
 
 @font-face {
-    font-family: 'inconsolata';
-    src: url('./fonts/Inconsolata.otf');
+    font-family: 'Inconsolata';
+    src: url('fonts/Inconsolata.otf');
 }
 
 @font-face {
-    font-family: 'bariol';
-    src: url('./fonts/Bariol.ttf');
+    font-family: 'Bariol';
+    src: url('fonts/Bariol.ttf');
 }
 
 .Background img{
@@ -22,12 +22,17 @@ body {
   opacity: 0.06;
 }
 
-.Absolute-Centered {
-	text-align: center;
-	color: #129272;
-  font-family: 'bariol';
-  font-size: 32px;
+.Error img{
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  width: 600px;
+  height: auto;
+  opacity: 0.5;
+}
 
+.Absolute-Centered {
   overflow: auto;
   margin: auto;
   position: absolute;
@@ -37,7 +42,16 @@ body {
 }
 
 .Code{
+  text-align: center;
+  color: #129272;
   font-family: 'inconsolata';
+  font-size: 32px;
+}
+
+.Regular{
+  text-align: center;
+  color: #129272;
+  font-family: 'Bariol';
   font-size: 32px;
 }
 
