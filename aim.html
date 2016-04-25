@@ -9,6 +9,17 @@
 	</head>
 	<body>
 
+		<!-- Load Facebook SDK for JavaScript -->
+			<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+
+		<div class="pageHolder">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-7">
@@ -17,6 +28,14 @@
 							<h2 style="margin-bottom:25px;">The next-gen app to achieve your goals</h2>
 							<h4 class="introParagraph">Because we forget easily ...<br>Aim is a new and practical concept to keep your goals in mind.<br>Write down your resolutions and get notified when you need it the most !<br><br>The mind is everything. What you think you become.<br>~Buddha</h4>
 						</div>
+
+						<!-- Your like button code -->
+							<div class="fb-like"
+								data-href="https://www.facebook.com/Aim-for-iPhone-223009484743412"
+								data-layout="standard"
+								data-action="like"
+								data-show-faces="true">
+							</div><br>
 
 						<a href="https://twitter.com/share" class="twitter-share-button" data-via="aimappios">Tweet</a>
 						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
