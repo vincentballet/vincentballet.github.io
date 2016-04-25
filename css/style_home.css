@@ -4,13 +4,20 @@ body {
 
 @font-face {
     font-family: 'Inconsolata';
-    src: url('fonts/Inconsolata.otf');
+    src: url('./assets/fonts/Inconsolata.otf');
 }
+
 
 @font-face {
     font-family: 'Bariol';
-    src: url('fonts/Bariol.ttf');
+    src: url('./assets/fonts/bariol_light-webfont.eot');
+    src: url('./assets/fonts/bariol_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./assets/fonts/bariol_light-webfont.woff') format('woff'),
+         url('./assets/fonts/bariol_light-webfont.ttf') format('truetype'),
+         url('./assets/fonts/bariol_light-webfont.svg#BariolRegularRegular') format('svg');
 }
+
+
 
 .Background img{
   overflow: auto;
@@ -23,8 +30,7 @@ body {
 }
 
 .Logo img{
-   width: 18px;
-  height: 18px;
+    margin-top: 10px;
     opacity: 0.5;
 }
 
@@ -72,9 +78,3 @@ a:hover, a:visited, a:link, a:active
 /*background-color: #CE5352;
 color: #2E3E56;
 color: #1C2533;*/
-
-
-
-
-
-
