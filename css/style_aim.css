@@ -15,7 +15,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4CB8C4', end
 }
 
 .fb-like{
-   overflow: hidden !important;
+    height: 20px;
+    overflow: hidden;
 }
 
 @font-face {
