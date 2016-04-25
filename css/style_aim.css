@@ -14,8 +14,8 @@ background: linear-gradient(bottom left,  #4CB8C4 0%,#3CD3AD 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4CB8C4', endColorstr='#3CD3AD',GradientType=1);
 }
 
-span#u_0_3 {color: white}
-span#u_0_2 {color: white}
+span#u_0_3 {color: white;}
+span#u_0_2 {color: white;}
 
 @font-face {
     font-family: 'Lato';
