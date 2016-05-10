@@ -1,8 +1,8 @@
 body {
-  /*green
-  background-color: #19CC9F;*/
+  /*green*/
+  background-color: #19CC9F;
   /*blue*/
-  background-color: #3B5B97;
+  /*background-color: #3B5B97;*/
 }
 
 
@@ -29,13 +29,14 @@ body {
   top: 0; left: 0; bottom: 0; right: 0;
   width: 600px;
   height: auto;
-  opacity: 0.03;
+  opacity: 0.05;
 }
 
 .Logo img{
   margin-top: 10px;
   opacity: 1;
 }
+
 
 .Error img{
   overflow: auto;
@@ -61,7 +62,7 @@ body {
   color: #129272;*/
   /*blue*/
   color: #D1D5E2;
-  font-family: 'Inconsolata', ;
+  font-family: 'Inconsolata';
   font-size: 32px;
 }
 
@@ -70,10 +71,10 @@ body {
   font-size: 28px;
   font-family: 'Bariol';
   text-align: center;
-  /*green
-  color: #129272;*/
+  /*green*/
+  color: #11876A;
   /*blue*/
-  color: #D1D5E2;
+  /*color: #D1D5E2;*/
 }
 
 .Icon{
@@ -82,9 +83,9 @@ body {
 
 a:hover, a:visited, a:link, a:active
 {
-  /*green
-  color: #286553;*/
+  /*green*/
+  color: #286553;
   /*blue*/
-  color: #ffffff;
+  /*color: #ffffff;*/
   text-decoration: none;
 }
