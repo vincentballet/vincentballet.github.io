@@ -22,66 +22,53 @@ body {
 }
 
 
-.Background img{
-  overflow: auto;
+.Background-Image img{
   margin: auto;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
   width: 600px;
   height: auto;
-  opacity: 0.05;
-}
-
-.Logo img{
-  margin-top: 10px;
-  opacity: 1;
-}
-
-
-.Error img{
-  overflow: auto;
-  margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
-  width: 600px;
-  height: auto;
-  opacity: 0.5;
 }
 
 .Absolute-Centered {
-  margin: auto;
   position: absolute;
-  width: 50%;
-  height: 400px;
-  top: 0; left: 0; bottom: 0; right: 0;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.Home-Container {
+
 }
 
 .Code{
   text-align: center;
-  /*green
-  color: #129272;*/
-  /*blue*/
-  color: #11876A;
   font-family: 'Inconsolata';
-  font-size: 32px;
+  font-size: 28px;
+  /*green*/
+  color: #11876A;
+  /*blue*/
+  /*color: #11876A;*/
 }
 
 .Regular{
-  line-height: 120%;
-  font-size: 28px;
-  font-family: 'Bariol';
   text-align: center;
+  font-family: 'Bariol';
+  font-size: 28px;
+  line-height: 120%;
   /*green*/
   color: #11876A;
   /*blue*/
   /*color: #D1D5E2;*/
 }
 
-.Icon{
-  font-size: 20px;
+a.Text-Centered:hover, a.Text-Centered:visited, a.Text-Centered:link, a.Text-Centered:active
+{
+  color: #fff;
+  text-decoration: none;
 }
 
-a:hover, a:visited, a:link, a:active
+a.Regular:hover, a.Regular:visited, a.Regular:link, a.Regular:active
 {
   /*green*/
   color: #286553;
