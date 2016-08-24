@@ -6,7 +6,7 @@ body {
 }
 
 
-@font-face {
+/*@font-face {
   font-family: 'bariol_regularregular';
   src: url('./assets/fonts/bariol_regular-webfont.eot');
 }
@@ -20,7 +20,7 @@ body {
   font-weight: normal;
   font-style: normal;
 }
-
+*/
 
 .Background-Image img{
   margin: auto;
@@ -53,11 +53,13 @@ body {
 
 .Regular{
   text-align: center;
-  font-family: 'Bariol';
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
   font-size: 28px;
-  line-height: 120%;
+  line-height: 130%;
   /*green*/
-  color: #11876A;
+  color: #1F735C;
+  /*color: #11876A;*/
   /*blue*/
   /*color: #D1D5E2;*/
 }
@@ -71,7 +73,10 @@ a.Text-Centered:hover, a.Text-Centered:visited, a.Text-Centered:link, a.Text-Cen
 a.Regular:hover, a.Regular:visited, a.Regular:link, a.Regular:active
 {
   /*green*/
-  color: #286553;
+  /*color: #003300;*/
+  font-weight: 400;
+    font-size: 26px;
+/*color: #286553;*/
   /*blue*/
   /*color: #ffffff;*/
   text-decoration: none;
