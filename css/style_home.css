@@ -1,5 +1,7 @@
 body {
   /*green*/
+  /*background-color: #19CC9F;*/
+
   background: #19cc9f; /* Old browsers */
   background: -moz-linear-gradient(-45deg,  #19cc9f 1%, #2bcc8f 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(-45deg,  #19cc9f 1%,#2bcc8f 100%); /* Chrome10-25,Safari5.1-6 */
@@ -35,7 +37,7 @@ body {
   font-family: 'Inconsolata';
   font-size: 28px;
   /*green*/
-  color: #11876A;
+  color: #1D7057;
   /*blue*/
   /*color: #11876A;*/
 }
@@ -47,7 +49,7 @@ body {
   font-size: 28px;
   line-height: 150%;
   /*green*/
-  color: #1F735C;
+  color: #1C6D53;
   /*color: #11876A;*/
   /*blue*/
   /*color: #D1D5E2;*/
