@@ -12,6 +12,12 @@ body {
   /*background-color: #3B5B97;*/
 }
 
+.Language {
+  position: absolute;
+    top: 20px;
+    right: 20px;}
+
+
 
 .Background-Image img{
   margin: auto;
