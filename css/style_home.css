@@ -1,15 +1,5 @@
 body {
-  /*green*/
-  /*background-color: #19CC9F;*/
-
-  background: #19cc9f; /* Old browsers */
-  background: -moz-linear-gradient(-45deg,  #19cc9f 1%, #2bcc8f 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg,  #19cc9f 1%,#2bcc8f 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg,  #19cc9f 1%,#2bcc8f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#19cc9f', endColorstr='#2bcc8f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-  /*blue*/
-  /*background-color: #3B5B97;*/
+  background: #FAFAFA; 
 }
 
 .Language {
@@ -27,6 +17,8 @@ body {
   height: auto;
 }
 
+
+
 .Absolute-Centered {
   position: absolute;
   top: 50%;
@@ -43,27 +35,34 @@ body {
   font-family: 'Inconsolata';
   font-size: 28px;
   /*green*/
-  color: #1D7057;
+  color: #444444;
   /*blue*/
   /*color: #11876A;*/
 }
 
 .Regular{
   text-align: center;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: 28px;
-  line-height: 150%;
-  /*green*/
-  color: #1C6D53;
-  /*color: #11876A;*/
-  /*blue*/
-  /*color: #D1D5E2;*/
+  font-family: 'Open Sans', sans-serif;
+/*  font-weight: 300;
+*/  font-size: 20px;
+  /*line-height: 150%;*/
+ 
+  color: #444444;
+}
+
+.Name{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  /*line-height: 150%;*/
+ 
+  color: #444444;
 }
 
 a.Text-Centered:hover, a.Text-Centered:visited, a.Text-Centered:link, a.Text-Centered:active
 {
-  color: #fff;
+  color: #529ECC;
   text-decoration: none;
 }
 
@@ -72,8 +71,7 @@ a.Regular:hover, a.Regular:visited, a.Regular:link, a.Regular:active
   /*green*/
   /*color: #003300;*/
   font-weight: 400;
-    font-size: 26px;
-/*color: #286553;*/
+  color: #529ECC;
   /*blue*/
   /*color: #ffffff;*/
   text-decoration: none;
