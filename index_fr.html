@@ -4,52 +4,53 @@
 <head>
     <!-- <script src="https://use.fontawesome.com/24d08610f8.js"></script> -->
     <meta charset=utf-8 />
-    <title>Vincent Ballet | Home</title>
+    <title>Vincent Ballet</title>
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style_home.css" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet"> 
     <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
-
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.3.1/velocity.js'></script>
+
+    <script src='js/js_home.js'></script>
+  
 </head>
 <body>
 
-
-    <div class="Background-Image">
-        <img style = "opacity: 0.0777;" src="./assets/img/background_logo.png">
+ <div class="Background-Image">
+        <img style = "opacity: 0.3;" src="./assets/img/background_logo.png">
     </div>
-
-    <div class="Language">
-        <a style ="opacity: 0.7; -webkit-filter: grayscale(100%); filter: grayscale(100%);" href="http://vincentballet.com/index.html" ><img src="./assets/img/gb.svg" width="20px" hspace="2"></a> <a style ="opacity: 0.7;-webkit-filter: grayscale(100%); filter: grayscale(100%);" href="http://vincentballet.com/index_fr.html" ><img src="./assets/img/fr.svg" width="20px" hspace="2"></a>
+<div class="Language">
+        <a href="http://vincentballet.com/index.html" ><img src="./assets/img/gb.svg" width="25px" hspace="2"></a>   
+        <a  href="http://vincentballet.com/index_fr.html" ><img src="./assets/img/fr.svg" width="25px" hspace="2"></a>
+        <!-- <a class=Regular href="http://vincentballet.com/index.html" >en</a>/<a class=Regular href="http://vincentballet.com/index_fr.html" >fr</a> -->
     </div>
 
 
 
     <div class="Absolute-Centered">
-        <div class="Regular">
-            Bonjour,<br> je m'appelle Vincent Ballet<br>
-            Je suis etudiant en master<br>d'informatique et ingenieurie financiere<br>
-            a l'<a class=Regular href="https://www.epfl.edu" target="_blank">Ecole Polytechnique Federale de Lausanne</a><br>
 
-            Mais actuellement stagiaire chez <a class=Regular href="http://www.amadeus.com/" target="_blank">Amadeus</a><br>
-            
-            Vous pouvez <a class=Regular href="http://vincentballet.com/security.html" target="_blank">en tout securite </a> m'envoyer un <a class=Regular href="mailto:vincent.ballet@me.com?Subject=Hello%20Vincent" target="_blank">email</a><br>
 
-            Ou me retrouver sur <a class=Regular href="http://www.twitter.com/vincentballet" target="_blank">Twitter</a> et <a class=Regular href="https://www.linkedin.com/in/vincentballet" target="_blank">LinkedIn</a><br>
+        <img id='logo' style="border-radius: 10px;" src="./assets/img/avatar.png" width="120" height="120" ><br><br>
 
-            Voici mon <a class=Regular href="/assets/web_resume_fr.pdf" target="_blank">cv</a><br>
 
+        <div class="Regular", id="textbloc">
+            <div class="Name">Vincent Ballet</div>
+
+            Master's student in<br>
+            Computer and Finance engineering<br>
+            at the <a class=Regular href="https://www.epfl.edu" target="_blank">Swiss Federal Institute of Technology</a><br>
+
+            Currently intern at <a class=Regular href="http://www.amadeus.com/" target="_blank">Amadeus</a><br>
+         
+           You can <a class=Regular href="http://vincentballet.com/security.html" target="_blank">securely</a> send me an <a class=Regular href="mailto:vincent.ballet@me.com?Subject=Hello%20Vincent" target="_blank">email </a><br>
+
+            I'm also on <a class=Regular href="http://www.twitter.com/vincentballet" target="_blank">Twitter</a> and <a class=Regular href="https://www.linkedin.com/in/vincentballet" target="_blank">LinkedIn</a><br>
+
+
+            Here is my <a class=Regular href="/assets/web_resume.pdf" target="_blank">resume</a><br>
         </div>
     </div>
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-77532044-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
 </body>
 </html>
