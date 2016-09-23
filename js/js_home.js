@@ -16,8 +16,8 @@ $("#button").ready(function() {
     $("#logo").velocity( { 
     opacity: 1, 
     top: "100%",
-    height: "130",
-    width: '130'  },
+    height: "120",
+    width: '120'  },
   { 
     display: "blmeock" 
   });
