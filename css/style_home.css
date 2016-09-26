@@ -2,7 +2,8 @@
 body {
 /*  background: #FAFAFA; */
   background: url(https://source.unsplash.com/category/nature)0 / cover fixed; 
-
+/*  background: url(https://hd.unsplash.com/reserve/4JUAYmLTuS1mBvBBwe3D_St_Anton.png)0 / cover fixed; 
+*/
 }
 
 
@@ -31,8 +32,10 @@ body {
 
 .Absolute-Centered:before {
     content: '';
-  background: url(https://source.unsplash.com/category/nature)0 / cover fixed; 
+      background: url(https://source.unsplash.com/category/nature)0 / cover fixed; 
 
+/*  background: url(https://hd.unsplash.com/reserve/4JUAYmLTuS1mBvBBwe3D_St_Anton.png)0 / cover fixed; 
+*/
   -webkit-filter: blur(5px);
            -moz-filter: blur(5px);
             -ms-filter: blur(5px);
@@ -48,11 +51,10 @@ body {
   }
 
 .Absolute-Centered {
-  background: rgba(200,200,200,0.4);
+  background: rgba(200,200,200,0.3);
 
   padding:30px;
   border-radius: 10px;
-
 
   /*display: flex;*/
   /*justify-content: :center;*/
@@ -79,9 +81,13 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   color: #DEDEDE;
+/*  mix-blend-mode: color-dodge;
+*/  mix-blend-mode:hard-light;
+
 }
 
 .Name{
+
   font-size: 50px;
   color: #363737;
 }
@@ -90,7 +96,8 @@ a.Regular:hover, a.Regular:visited, a.Regular:link, a.Regular:active
 {
 
   font-weight: 400;
-  color: #529ECC;
-  text-decoration: none;
+  color: #363737;
+/*  color: #529ECC;
+*/  text-decoration: none;
 }
 
