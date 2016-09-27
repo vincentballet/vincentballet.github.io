@@ -1,9 +1,9 @@
 
 body {
-/*  background: #FAFAFA; */
-  background: url(https://source.unsplash.com/category/nature)0 / cover fixed; 
-/*  background: url(https://hd.unsplash.com/reserve/4JUAYmLTuS1mBvBBwe3D_St_Anton.png)0 / cover fixed; 
-*/
+  background: #FAFAFA; 
+  background: url(https://source.unsplash.com/collection/362678/) 0/ cover fixed; 
+ /**/
+
 }
 
 
@@ -31,41 +31,32 @@ body {
 
 
 .Absolute-Centered:before {
-    content: '';
-      background: url(https://source.unsplash.com/category/nature)0 / cover fixed; 
+  content: '';
+background: url(https://source.unsplash.com/collection/362678/) 0/ cover fixed; 
 
-/*  background: url(https://hd.unsplash.com/reserve/4JUAYmLTuS1mBvBBwe3D_St_Anton.png)0 / cover fixed; 
-*/
-  -webkit-filter: blur(5px);
-           -moz-filter: blur(5px);
-            -ms-filter: blur(5px);
-             -o-filter: blur(5px);
-                filter: blur(5px);
-    position: absolute;
-    top: 0;
-    bottom:0;
-   left: 0;
-    right: 0;    
-    z-index: -1;
-
-  }
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -ms-filter: blur(10px);
+  -o-filter: blur(10px);
+  filter: blur(10px);
+  position: absolute;
+  top: 0;
+  bottom:0;
+  left: 0;
+  right: 0;    
+  z-index: -1;
+}
 
 .Absolute-Centered {
-  background: rgba(200,200,200,0.3);
-
-  padding:30px;
-  border-radius: 10px;
-
-  /*display: flex;*/
-  /*justify-content: :center;*/
-  /*align-items:center;*/
-
+  background: rgba(255,255,255,0.4);
+  padding:15px;
+  border-radius: 15px;
 
   text-align: center;
   position: absolute;
   top: 25%;
-  right:25%;
-  left:25%;
+  right:27%;
+  left:27%;
 
 }
 
@@ -73,21 +64,18 @@ body {
 .Code{
   font-family: 'Inconsolata';
   font-size: 22px;
-  color: #7B7B7B;
-
+  color: #363737;
 }
 
 .Regular{
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  color: #DEDEDE;
-/*  mix-blend-mode: color-dodge;
-*/  mix-blend-mode:hard-light;
-
+  font-weight: 400;
+  font-size: 20px;
+  color: #363737;
+  mix-blend-mode:hard-light;
 }
 
 .Name{
-
   font-size: 50px;
   color: #363737;
 }
@@ -96,8 +84,7 @@ a.Regular:hover, a.Regular:visited, a.Regular:link, a.Regular:active
 {
 
   font-weight: 400;
-  color: #363737;
-/*  color: #529ECC;
-*/  text-decoration: none;
+  color: #E1E1E1;
+  text-decoration: none;
 }
 
