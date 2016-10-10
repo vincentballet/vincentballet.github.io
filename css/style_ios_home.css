@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('fonts/Inconsolata.otf');
+}
+
+@font-face {
+    font-family: 'Bariol';
+    src: url('fonts/Bariol.ttf');
+}
+
+body {
+-webkit-touch-callout: none; 
+  -webkit-user-select: none;   
+  -khtml-user-select: none;    
+  -moz-user-select: none;     
+  -ms-user-select: none;       
+  user-select: none;   
+  /*
+background: #4CBAC2;
+background: -moz-linear-gradient(bottom left,  #4CBAC2 0%, #e25728 48%, #BA2E56 100%);
+background: -webkit-linear-gradient(bottom left,  #4CBAC2 0%,#e25728 48%,#BA2E56 100%);
+background: linear-gradient(bottom left,  #e98a23 0%,#e25728 48%,#BA2E56 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e98a23', endColorstr='#BA2E56',GradientType=1 );*/
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e98a23+0,4cbac2+0,3cd2ad+51 */
+background: #e98a23; /* Old browsers */
+background: -moz-linear-gradient(45deg, #e98a23 0%, #4cbac2 0%, #3cd2ad 51%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #e98a23 0%,#4cbac2 0%,#3cd2ad 51%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #e98a23 0%,#4cbac2 0%,#3cd2ad 51%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e98a23', endColorstr='#3cd2ad',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.Regular{
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Bariol';
+  font-size: 25px;
+}
+
+.Small{
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Bariol';
+  font-size: 12.5px;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.outer-container {
+    position : absolute;
+    display: table;
+    width: 100%; 
+    height: 100%; 
+}
+
+.inner-container {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.centered-content {
+    display: inline-block;
+    padding : 20px;
+}
+
+.Error img{
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  width: 600px;
+  height: auto;
+  opacity: 0.5;
+}

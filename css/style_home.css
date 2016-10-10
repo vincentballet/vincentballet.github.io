@@ -21,16 +21,13 @@ body {
   border-radius: 3px;
 }
 
-
-.Background-Image img{
-  margin: auto;
+.Main-Center{
+  text-align: center;
   position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
-  width: 600px;
-  height: auto;
+  top: 40%;
+  right:27%;
+  left:27%;
 }
-
-
 
 .Absolute-Centered:before {
   content: '';
@@ -57,12 +54,6 @@ body {
   background: rgba(255,255,255,0.4);
   padding:15px;
   border-radius: 15px;
-
-  text-align: center;
-  position: absolute;
-  top: 25%;
-  right:27%;
-  left:27%;
 
 }
 
