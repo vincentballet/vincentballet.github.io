@@ -3,8 +3,9 @@
 }
 
 body{
+  background-color: var(--main-color);;
   background-size: cover;
-  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAJCAYAAAAGuM1UAAABoklEQVQoUwXBzUuTcQDA8e+vPc9efJ71qHvayKEF0kKpICloKdFF6NAhOi26FBSehkSgSKf6BzosqK7SIcFEWge71CHnZDaG9qbQKEine1ybyp69PG79+nzEh9wd+Wzfxdx2mxv6ITeDBr0MsGfVSS5myfxqQdMhYHcjHRDZpbh8mPxOxjGJ9cHVMzohI0pX2+TV/CyOtwfDF+bLwjfsWgUx9/qJ/FnzkUh+5EKkE7/egV05yrXoCOsbX9ECBh4XrC6tUyrtIl7OzMiRoShvlpdZWU1Tzm9i9kYYCIVpuKu8/ZRiPH6X7I80a7k8YirxXHrbAQ4au5Qdi8+LOY6dOMlvtcjl0fOU6ge0aofoQT/WZhFx/0Fc/qnU2Sr/RVXcqFVJQ/1HaVijf7CHoKkwv7FCh9eHW3gQjybGZWptB6Fr2O4m7NmgHGErAtVTLfrOhtk3urluXmK7VkBMJx7Lp9Np1OOduDxemtJGQ6Hol1j9VZSLBsNDo8x23eZ9o4CYmByT71J5tHAIYUNbcXCAWOwWqZ0MaV+BwSvneHH6HgtNi//DXKpqIQ3z5wAAAABJRU5ErkJggg==");
+  background-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAJCAYAAAAGuM1UAAABoklEQVQoUwXBzUuTcQDA8e+vPc9efJ71qHvayKEF0kKpICloKdFF6NAhOi26FBSehkSgSKf6BzosqK7SIcFEWge71CHnZDaG9qbQKEine1ybyp69PG79+nzEh9wd+Wzfxdx2mxv6ITeDBr0MsGfVSS5myfxqQdMhYHcjHRDZpbh8mPxOxjGJ9cHVMzohI0pX2+TV/CyOtwfDF+bLwjfsWgUx9/qJ/FnzkUh+5EKkE7/egV05yrXoCOsbX9ECBh4XrC6tUyrtIl7OzMiRoShvlpdZWU1Tzm9i9kYYCIVpuKu8/ZRiPH6X7I80a7k8YirxXHrbAQ4au5Qdi8+LOY6dOMlvtcjl0fOU6ge0aofoQT/WZhFx/0Fc/qnU2Sr/RVXcqFVJQ/1HaVijf7CHoKkwv7FCh9eHW3gQjybGZWptB6Fr2O4m7NmgHGErAtVTLfrOhtk3urluXmK7VkBMJx7Lp9Np1OOduDxemtJGQ6Hol1j9VZSLBsNDo8x23eZ9o4CYmByT71J5tHAIYUNbcXCAWOwWqZ0MaV+BwSvneHH6HgtNi//DXKpqIQ3z5wAAAABJRU5ErkJggg==");
 
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Chrome/Safari/Opera */
