@@ -4,13 +4,14 @@
   --blur: blur(10px);
 }
 
-
 body { 
-  background: #3C3C3C url(https://source.unsplash.com/collection/362678/) no-repeat center center fixed; 
+  background: #fff url(https://source.unsplash.com/collection/362678/) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+  opacity:0;
 
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Chrome/Safari/Opera */
@@ -56,6 +57,7 @@ body img{
 }
 
 .Main-Center{
+  opacity:0;
   text-align: center;
   position: absolute;
   top: 42%;
