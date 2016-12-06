@@ -52,10 +52,6 @@ body img{
   -ms-user-select: none;
 }
 
-.Language img {
-  border-radius: 3px;
-}
-
 .Main-Center{
   opacity:0;
   text-align: center;
@@ -85,9 +81,3 @@ a:hover, a:visited, a:link, a:active
   color: var(--main-color);
   text-decoration: none;
 }
-
-.social-icon{
-  height:50px;
-  fill: var(--main-color);
-}
-
