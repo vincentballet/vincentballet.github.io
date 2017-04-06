@@ -2,9 +2,12 @@
 :root {
   --main-color: #FCFCFC;
   --blur: blur(10px);
+  --pad: -10px;
 }
 
 body { 
+  margin: -10px;
+  padding: -10px;
   background: #fff url(https://source.unsplash.com/collection/362678/) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -36,10 +39,10 @@ body:before {
   -o-filter: var(--blur);
   filter: var(--blur);
   position: absolute;
-  top: 0;
-  bottom:0;
-  left: 0;
-  right: 0;    
+  top: var(--pad);
+  bottom:var(--pad);
+  left: var(--pad);
+  right: var(--pad);    
   z-index: -1;
 }
 
