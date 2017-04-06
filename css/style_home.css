@@ -2,7 +2,7 @@
 :root {
   --main-color: #FCFCFC;
   --blur: blur(10px);
-  --pad: -10px;
+  --pad: 0px;
 }
 
 body { 
@@ -13,7 +13,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
+  overflow: hidden;
   opacity:0;
 
   -webkit-touch-callout: none; /* iOS Safari */
@@ -27,7 +27,7 @@ body {
 
 body:before {
   content: '';
-  background: #3C3C3C url(https://source.unsplash.com/collection/362678/) no-repeat center center fixed; 
+  background: #fff url(https://source.unsplash.com/collection/362678/) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -44,6 +44,9 @@ body:before {
   left: var(--pad);
   right: var(--pad);    
   z-index: -1;
+  -ms-transform: scale(1,05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari */
+  transform: scale(1.05);
 }
 
 body img{
