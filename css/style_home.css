@@ -6,9 +6,7 @@
 }
 
 body { 
-  margin: -10px;
-  padding: -10px;
-  background: #fff url(https://source.unsplash.com/collection/362678/) no-repeat center center fixed; 
+  background: #fff url(https://source.unsplash.com/collection/655836/) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -27,7 +25,7 @@ body {
 
 body:before {
   content: '';
-  background: #fff url(https://source.unsplash.com/collection/362678/) no-repeat center center fixed; 
+  background: #fff url(https://source.unsplash.com/collection/655836/) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -44,7 +42,7 @@ body:before {
   left: var(--pad);
   right: var(--pad);    
   z-index: -1;
-  -ms-transform: scale(1,05); /* IE 9 */
+  -ms-transform: scale(1.05); /* IE 9 */
   -webkit-transform: scale(1.05); /* Safari */
   transform: scale(1.05);
 }
