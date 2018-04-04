@@ -245,19 +245,31 @@ html {
 body {
     width: 100%;
     height: 100%;
-    font-size: 24px;
+    font-size: 14px;
     line-height: 1.5em;
+}
+
+.name {
+    font-size: 44px;
+    line-height: 1.2em;
+    margin-bottom: 42px;
 }
 
 @media (min-width: 500px) {
     body {
-        font-size:24px;
+        font-size:20px;
+    }
+    .name {
+        font-size:64px;
     }
 }
 
 @media (min-width: 700px) {
     body {
-        font-size: 24px;
+        font-size: 20px;
+    }
+    .name {
+        font-size:64px;
     }
 }
 
@@ -284,12 +296,6 @@ body {
     -webkit-font-smoothing: antialiased
 }
 
-.name {
-    font-size: 60px!important;
-    line-height: 1.2em;
-    margin-bottom: 42px;
-}
-
 .intro-title>span {
     display: block;
     -webkit-transform: translateY(20px);
@@ -308,6 +314,7 @@ body {
 
     .name{
         margin-bottom: 0px;
+        font-size : 64px;
     }
 }
 
