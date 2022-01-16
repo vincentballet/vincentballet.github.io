@@ -283,14 +283,9 @@ body {
     }
 }
 
-/* .intro {
+.intro {
     width: 100%;
     height: 100%;
-    background: #141E30;
-    background: linear-gradient(90deg, #141e30, #243b55);
-    background: -moz-linear-gradient(top, #141E30 0%, #243b55 100%);
-    background: -webkit-linear-gradient(top, #141E30 0%, #243b55 100%);
-    background: linear-gradient(to bottom, #141E30 0%, #243b55 100%);
     text-align: center;
     display: -webkit-box;
     display: flex;
@@ -300,7 +295,7 @@ body {
     align-items: center;
     position: relative;
     padding: 20px
-} */
+}
 
 .intro-title {
     -webkit-font-smoothing: antialiased
