@@ -388,6 +388,45 @@ body {
     animation-fill-mode: forwards
 }
 
+.intro-title>span:nth-child(6) {
+    -webkit-animation-duration: 1000ms;
+    animation-duration: 1000ms;
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-delay: 800ms;
+    animation-delay: 800ms;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards
+}
+
+.intro-title>span:nth-child(7) {
+    -webkit-animation-duration: 1000ms;
+    animation-duration: 1000ms;
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-delay: 850ms;
+    animation-delay: 850ms;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards
+}
+
+.intro-title>span:nth-child(8) {
+    -webkit-animation-duration: 1000ms;
+    animation-duration: 1000ms;
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-delay: 900ms;
+    animation-delay: 900ms;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards
+}
+
 
 @-webkit-keyframes slideIn {
     from {
